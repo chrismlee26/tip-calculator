@@ -1,6 +1,44 @@
-#body {
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+
+#column1 {
     display: flex;
     flex-direction: column;
-    
+    padding: 200px;
+    border-style: solid;
+    border: 5px black;
+
+}
+
+div.output {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 5px black;
+
+}
+
+
+div#total {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div#display {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+div#h1 {
+    font-family: 
+
 
 }
